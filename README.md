@@ -1,4 +1,4 @@
-# Documentación del Proyecto 
+# Documentación del Proyecto AppCuentaCorriente
 
 ## Descripción general 
 El proyecto `AppCuentaCorriente` implementa un sistema simple para gestionar cuentas corrientes 
@@ -9,6 +9,30 @@ El sistema permite crear cuentas, abonar o cargar dinero, y revisar el estado de
 1. `CuentaCorriente`: Clase que representa una cuenta corriente con atributos y métodos para manejar el saldo y la información de la cuenta.
 2. `Menu`: Clase que gestiona la interacción con el usuario, mostrando un menú de opciones y ejecutando las acciones correspondientes.
 3. `Main`: Clase principal que inicia la aplicación.
+
+## Estructura de las carpetas del proyecto
+
+- **src/**: Contiene el código fuente en Java.
+- **out/**: Contiene los archivos compilados (.class) del proyecto.
+- **README.md**: Este archivo con instrucciones sobre el proyecto.
+
+##  Estructura de la carpeta recursos (src) del proyecto
+
+- **CuentaCorriente.java**: Clase que maneja la lógica de la cuenta corriente.
+- **Main.java**: Clase principal que arranca la aplicación.
+- **Menu.java**: Clase que gestiona el menú de la aplicación.
+
+## Cómo Ejecutar el Proyecto desde el archivo Jar
+
+1. Descomprime el archivo ZIP.
+2. Abre una terminal o línea de comandos.
+3. Navega a la carpeta `out/production/AppCuentaCorriente` con `cd ruta `
+4. Ejecuta el archivo JAR `java -jar AppCuentaCorriente.jar` 
+
+## Instrucciones para Ejecutar desde IDE
+1. Asegúrate de tener JDK 22 instalado.
+2. Abre el proyecto en IntelliJ IDEA o cualquier IDE compatible con Java.
+3. Compila y ejecuta `Main.java` para iniciar la aplicación.
 
 ## Conceptos aprendidos 
 
